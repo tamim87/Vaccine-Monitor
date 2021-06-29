@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="780.0" style="-fx-background-color: #943126;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Logincontroller">
+   <children>
+      <AnchorPane layoutX="390.0" layoutY="42.0" prefHeight="442.0" prefWidth="383.0" style="-fx-background-color: #943126;">
+         <children>
+            <TextField fx:id="username" layoutX="37.0" layoutY="134.0" prefHeight="30.0" prefWidth="310.0" promptText="username" style="-fx-background-color: #943126;">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password" layoutX="37.0" layoutY="176.0" prefHeight="30.0" prefWidth="310.0" promptText="password" style="-fx-background-color: #943126;">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="115.0" layoutY="64.0" prefHeight="44.0" prefWidth="224.0" text="Welcome Back!" textFill="#141414">
+               <font>
+                  <Font name="Noto Mono" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="398.0" prefHeight="30.0" prefWidth="196.0" text="Don't have an account?" textFill="WHITE">
+               <font>
+                  <Font name="Noto Mono" size="14.0" />
+               </font>
+            </Label>
+            <Separator layoutX="40.0" layoutY="163.0" prefHeight="0.0" prefWidth="310.0" />
+            <Separator layoutX="40.0" layoutY="205.0" prefHeight="0.0" prefWidth="310.0" />
+            <JFXButton fx:id="loginbutton" buttonType="RAISED" layoutX="157.0" layoutY="239.0" onAction="#loginbuttonpushed" prefHeight="36.0" prefWidth="76.0" ripplerFill="#140101" stylesheets="@buttonEffects.css" text="Login" textFill="WHITE" />
+            <JFXButton fx:id="signupbutton" buttonType="RAISED" layoutX="283.0" layoutY="398.0" onAction="#loadsignuppage" prefHeight="30.0" prefWidth="85.0" stylesheets="@buttonEffects.css" text="Sign Up" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="39.0" layoutY="83.0" prefHeight="59.0" prefWidth="310.0" text="Vaccine Monitor" textFill="#141414">
+         <font>
+            <Font name="Comic Sans MS" size="37.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="338.0" layoutX="458.0" layoutY="113.0" startX="-100.0" startY="-38.0" stroke="WHITE" />
+      <ComboBox fx:id="combobox" disable="true" layoutX="14.0" layoutY="484.0" onAction="#comboboxpushed" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #943126;" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="63.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/icons/Syringe-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

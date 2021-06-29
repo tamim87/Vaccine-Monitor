@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="12 Months" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="18 Months" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Hepatitis A is a highly contagious, short-term liver infection caused by the hepatitis A virus.&#10;&#10;How serious is hepatitis A?&#10;&#10;People who get hepatitis A may feel sick for a few weeks to several months but usually recover completely and do not have lasting liver damage. In rare cases, hepatitis A can cause liver failure and even death; this is more common in older people and in people with other serious health issues, such as chronic liver disease.&#10;How common is hepatitis A in the United States?&#10;&#10;In 2018, a total of 12,474 hepatitis A cases were reported in the United States. Because some people don’t ever get diagnosed, the actual number of cases reported in that year is probably closer to 24,900. Since 2016, person-to-person outbreaks of hepatitis A have been occurring across the United States mainly among people who use injection drugs or are experiencing homelessness, resulting in more than 32,000 cases.&#10;Are cases of hepatitis A increasing in the United States?&#10;&#10;Since the hepatitis A vaccine was first recommended in 1996, cases of hepatitis A in the United States declined dramatically. Unfortunately, in recent years the number of people infected has been increasing because there have been multiple outbreaks of hepatitis A in the United States resulting from person-to-person contact, especially among people who use drugs, people experiencing homelessness, and men who have sex with men.&#10;How is hepatitis A spread?&#10;&#10;The hepatitis A virus is found in the stool and blood of people who are infected. The hepatitis A virus is spread when someone ingests the virus (even in amounts too small to see) through:&#10;Person-to-person contact&#10;Hepatitis A can be spread from close, personal contact with an infected person, such as through certain types of sexual contact (like oral-anal sex), caring for someone who is ill, or using drugs with others. Hepatitis A is very contagious, and people can even spread the virus before they feel sick.&#10;Eating contaminated food or drink&#10;Contamination of food with the hepatitis A virus can happen at any point: growing, harvesting, processing, handling, and even after cooking. Contamination of food and water happens more often in countries where hepatitis A is common. Although uncommon, foodborne outbreaks have occurred in the United States from people eating contaminated fresh and frozen imported food products.&#10;Who is at risk for hepatitis A?&#10;&#10;Although anyone can get hepatitis A, in the United States, certain groups of people are at higher risk for getting infected and for having severe disease if they do get hepatitis A. People at increased risk for hepatitis A&#10;International travelers&#10;Men who have sex with men&#10;People who use or inject drugs (all those who use illegal drugs)&#10;People with occupational risk for exposure&#10;People who anticipate close personal contact with an international adoptee&#10;People experiencing homelessness&#10;People at increased risk for severe disease from hepatitis A infection&#10;People with chronic liver disease, including hepatitis B and hepatitis C&#10;People with HIV" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Hepatitis A vaccine is a vaccine that prevents hepatitis A. It is effective in around 95% of cases and lasts for at least fifteen years and possibly a person's entire life. If given, two doses are recommended beginning after the age of one. It is given by injection into a muscle.&#10;&#10;How is the hepatitis A vaccine given?&#10;&#10;There are two types of hepatitis A vaccine. The first type, the single-dose hepatitis A vaccine, is given as two shots, 6 months apart, and both shots are needed for long-term protection against hepatitis A. The other type is a combination vaccine that protects people against both hepatitis A and hepatitis B. The combination vaccine can be given to anyone 18 years of age and older and is given as three shots over 6 months. All three shots are needed for long-term protection for both hepatitis A and hepatitis B.&#10;Is the hepatitis A vaccine effective?&#10;&#10;Yes, both types of hepatitis A vaccine are highly effective in preventing hepatitis A virus infection. Receiving the entire vaccine series (all of the required shots) results in long-term protection.&#10;Is the hepatitis A vaccine safe?&#10;&#10;Yes, the hepatitis A vaccine is safe. No serious side effects have been reported from the hepatitis A vaccine. Soreness at the injection site is the most common side effect reported. As with any medicine, there is always a small risk that a serious problem could occur after someone gets the vaccine. However, the potential risks of hepatitis A are much greater than the potential risks associated with the hepatitis A vaccine. Millions of doses of hepatitis A vaccine have been given in the United States and worldwide since the first hepatitis A vaccine was licensed in 1995." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Hepatitis A vaccines are safe and effective at preventing hepatitis A infections. Vaccines, like any medicine, can have side effects. The common side effects are usually mild and last 1-2 days.&#10;&#10;Severe allergic reactions following vaccination are rare, but can be life threatening. &#10;Symptoms of a severe allergic reaction can include hives, swelling of the face and throat, difficulty breathing, a fast heartbeat, dizziness, and weakness.&#10;If such reactions occur, call 9-1-1 and get the person to the nearest hospital.&#10;&#10;Common Side Effects&#10;&#10;Swelling, tenderness, redness, warmth, or a hard lump where the shot was given&#10;Low fever&#10;General ill feeling&#10;Nausea&#10;Loss of appetite&#10;Headache" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Who&#10;&#10;The following people should be vaccinated against hepatitis A:&#10;&#10;Children&#10;&#10;All children aged 12–23 months&#10;All children and adolescents 2–18 years of age who have not previously received hepatitis A vaccine (known as “catch up” vaccination)&#10;People at increased risk for hepatitis A&#10;People at increased risk for severe disease from hepatitis A infection&#10;Other people recommended for vaccination&#10;Pregnant women at risk for hepatitis A or risk for severe outcome from hepatitis A infection&#10;Any person who requests vaccination" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="629.0" text="Full name: Hepatitis A Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

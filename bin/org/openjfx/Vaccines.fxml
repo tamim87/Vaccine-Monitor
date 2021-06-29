@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="736.0" style="-fx-background-color: #90CAF9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.VaccinesController">
+   <children>
+      <BorderPane prefHeight="465.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox fillWidth="false" prefHeight="465.0" prefWidth="490.0" style="-fx-background-color: #BBDEFB; -fx-background-radius: 35;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="hepbbutton" onAction="#hepbpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="HepB">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="rvbutton" onAction="#rvpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="RV">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="dtapbutton" onAction="#dtappushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="DTap">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="ipvbutton" onAction="#ipvpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="IPV">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="mmrbutton" onAction="#mmrpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="MMR">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="varbutton" layoutX="10.0" layoutY="235.0" onAction="#varpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="VAR">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="hepabutton" layoutX="10.0" layoutY="310.0" onAction="#hepapushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="HepA">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="bcgbutton" layoutX="10.0" layoutY="260.0" onAction="#bcgpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="BCG">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="hpvbutton" layoutX="10.0" layoutY="310.0" onAction="#hpvpushed" prefHeight="56.0" prefWidth="500.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="HPV">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="40.0" left="60.0" right="60.0" top="20.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <top>
+            <Label prefHeight="60.0" prefWidth="604.0" text="Available Vaccines" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="37.0" />
+               </font>
+               <padding>
+                  <Insets left="80.0" top="15.0" />
+               </padding>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+         <right>
+            <JFXButton fx:id="homebutton" buttonType="RAISED" contentDisplay="TOP" onAction="#homebuttonpushed" prefHeight="78.0" prefWidth="76.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="Home" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="480.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/icons/home-icon1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="50.0" prefWidth="661.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="2 Months" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="4 Months" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="170.0" prefHeight="50.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="6-18 Months" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="3rd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="270.0" prefHeight="50.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="4-6 Years" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="4th Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Polio (or poliomyelitis) is a disabling and life-threatening disease caused by poliovirus, which can infect a person’s spinal cord, leading to paralysis.&#10;&#10;Most people infected with poliovirus have no symptoms, and many recover without complications. Some people will experience sore throat, fever, tiredness, nausea, headache, or stomach pain.&#10;&#10;A smaller group of people will develop more serious symptoms that affect the brain and spinal cord:&#10;&#10;Paresthesia (feeling of pins and needles in the legs),&#10;Meningitis (infection of the covering of the spinal cord and/or brain), or&#10;Paralysis (can’t move parts of the body) or weakness in the arms, legs, or both.&#10;Paralysis is the most severe symptom associated with polio because it can lead to permanent disability and death.&#10;&#10;Improvements in limb paralysis can occur, but in some people new muscle pain and weakness may develop 15 to 40 years later. This is called post-polio syndrome.&#10;&#10;Polio has been eliminated from the United States, but it still occurs in other parts of the world. The best way to protect yourself and keep the United States polio-free is to maintain high immunity (protection) in the population against polio through vaccination." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="CDC recommends that children get polio vaccine to protect against polio, or poliomyelitis. Inactivated polio vaccine (IPV) is the only polio vaccine that has been given in the United States since 2000. IPV is given by shot in the leg or arm, depending on the patient’s age. Oral polio vaccine (OPV) is used in other countries.&#10;&#10;CDC recommends that children get four doses of polio vaccine. They should get one dose at each of the following ages: 2 months old, 4 months old, 6 through 18 months old, and 4 through 6 years old.&#10;&#10;Two types of vaccines protect against polio, or poliomyelitis.&#10;&#10;Inactivated poliovirus vaccine (IPV)&#10;IPV is the only polio vaccine that has been used in the United States since 2000.&#10;It is given by shot in the leg or arm, depending on the patient’s age.&#10;Children should get four doses total, with one dose at each of the following ages:&#10;2 months old,&#10;4 months old,&#10;6 through 18 months old, and&#10;4 through 6 years old.&#10;For more information about IPV, see Vaccine Composition, Dosage, and Administration.&#10;&#10;Oral poliovirus vaccine (OPV)&#10;This vaccine is no longer licensed or available in the United States.&#10;It is still used in some parts of the world.&#10;Children receive doses of the vaccine by drops in the mouth.&#10;For more information, see About Oral Polio Vaccine (OPV)external icon .&#10;&#10;Since 2000, only IPV has been used in the United States to eliminate the risk of vaccine-derived poliovirus that can occur with OPV. This decision was also based on the decreased risk of wild poliovirus being brought into the country and because the U.S. is currently polio-free.&#10;&#10;The IPV that has been used in the United States since 1987 is as effective as OPV for preventing polio. Two doses of IPV provides 90% immunity (protection) to all three types of poliovirus; 3 doses provides at least 99% immunity." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="With any medicine, including vaccines, there is a chance of side effects. These are usually mild and go away on their own, but serious reactions are also possible.&#10;&#10;Some people who get IPV get a sore spot where the shot was given. IPV has not been known to cause serious problems, and most people do not have any problems with it.&#10;&#10;Other problems that could happen after this vaccine:&#10;&#10;People sometimes faint after a medical procedure, including vaccination. Sitting or lying down for about 15 minutes can help prevent fainting and injuries caused by a fall. Tell your provider if you feel dizzy, or have vision changes or ringing in the ears.&#10;Some people get shoulder pain that can be more severe and longer-lasting than the more routine soreness that can follow injections. This happens very rarely.&#10;Any medication can cause a severe allergic reaction. Such reactions from a vaccine are very rare, estimated at about 1 in a million doses, and would happen within a few minutes to a few hours after the vaccination.&#10;As with any medicine, there is a very remote chance of a vaccine causing a serious injury or death." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Infants and Children&#10;&#10;Children in the United States should get inactivated polio vaccine (IPV) to protect against polio, or poliomyelitis. They should get four doses total, with one dose at each of the following ages:&#10;&#10;2 months old&#10;4 months old&#10;6 through 18 months old&#10;4 through 6 years old&#10;Children who will be traveling to a country where the risk of getting polio is greaterexternal icon should complete the series before leaving for their trip. If a child cannot complete the routine series before leaving, an accelerated schedule is recommended as follows:&#10;1 dose at age 6 weeks or older&#10;a second dose 4 or more weeks after the first dose&#10;a third dose 4 or more weeks after the second dose&#10;a fourth dose 6 or more months after the third dose&#10;If the accelerated schedule cannot be completed before leaving, the remaining doses should be given in the affected country, or upon returning home, at the intervals recommended in the accelerated schedule. In addition, children completing the accelerated schedule should still receive a dose of IPV at 4 years old or older, as long as it has been at least 6 months after the last dose.&#10;&#10;Adults&#10;&#10;Most adults do not need polio vaccine because they were already vaccinated as children. But three groups of adults are at higher risk and should consider polio vaccination in the following situations:&#10;&#10;You are traveling to a country where the risk of getting polio is greater. Ask your healthcare provider for specific information on whether you need to be vaccinated.&#10;You are working in a laboratory and handling specimens that might contain polioviruses.&#10;You are a healthcare worker treating patients who could have polio or have close contact with a person who could be infected with poliovirus.&#10;Adults in these three groups who have never been vaccinated against polio should get 3 doses of IPV:&#10;&#10;The first dose at any time,&#10;The second dose 1 to 2 months later,&#10;The third dose 6 to 12 months after the second.&#10;Adults in these three groups who have had 1 or 2 doses of polio vaccine in the past should get the remaining 1 or 2 doses. It doesn’t matter how long it has been since the earlier dose(s).&#10;&#10;Adults who are at increased risk of exposure to poliovirus and who have previously completed a routine series of polio vaccine (IPV or OPV) can receive one lifetime booster dose of IPV." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="663.0" text="Full name: Inactivated Poliovirus Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

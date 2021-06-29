@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="1036.0" style="-fx-background-color: #a2cbc8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.AddKidController">
+   <children>
+      <VBox layoutY="68.0" prefHeight="450.0" prefWidth="336.0" AnchorPane.bottomAnchor="73.0" AnchorPane.leftAnchor="650.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="65.0">
+         <children>
+            <Label prefHeight="60.0" prefWidth="335.0" text="Select Already Taken vaccines">
+               <font>
+                  <Font name="KacstOne" size="19.0" />
+               </font>
+            </Label>
+            <JFXCheckBox fx:id="hepb" onAction="#hepbchecked" prefHeight="54.0" prefWidth="182.0" text="HepB">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="rv" layoutX="10.0" layoutY="10.0" onAction="#rvchecked" prefHeight="54.0" prefWidth="182.0" text="RV">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="dtap" layoutX="10.0" layoutY="10.0" onAction="#dtapchecked" prefHeight="54.0" prefWidth="182.0" text="DTap">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="iv" layoutX="10.0" layoutY="64.0" onAction="#ivchecked" prefHeight="54.0" prefWidth="182.0" text="IV">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="mmr" layoutX="10.0" layoutY="10.0" onAction="#mmrchecked" prefHeight="54.0" prefWidth="182.0" text="MMR">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="var" layoutX="10.0" layoutY="64.0" onAction="#varchecked" prefHeight="54.0" prefWidth="182.0" text="VAR">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="hepa" layoutX="10.0" layoutY="118.0" onAction="#hepachecked" prefHeight="54.0" prefWidth="182.0" text="HepA">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="bcg" layoutX="10.0" layoutY="172.0" onAction="#bcgchecked" prefHeight="54.0" prefWidth="182.0" text="BCG">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="hpv" layoutX="10.0" layoutY="399.0" onAction="#hpvchecked" prefHeight="54.0" prefWidth="182.0" text="HPV">
+               <font>
+                  <Font name="KacstPen" size="15.0" />
+               </font>
+            </JFXCheckBox>
+         </children>
+      </VBox>
+      <BorderPane prefHeight="465.0" prefWidth="655.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox fillWidth="false" prefHeight="465.0" prefWidth="541.0" style="-fx-background-color: #d5d8d8; -fx-background-radius: 35;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <ImageView fitHeight="28.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_stack-icon.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <TextField fx:id="kidname" prefHeight="30.0" prefWidth="318.0" promptText="kid name">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" top="30.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox layoutX="40.0" layoutY="85.0" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <ImageView fitHeight="28.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_star-icon.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <DatePicker fx:id="dateofbirth" prefHeight="30.0" prefWidth="318.0" promptText="date of birth">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </DatePicker>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" top="30.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="113.0" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <ImageView fitHeight="28.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_typography-icon.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <TextField fx:id="bloodgroup" prefHeight="30.0" prefWidth="318.0" promptText="blood group">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" top="30.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+                  <JFXButton fx:id="submitbtn" onAction="#submitbuttonpushed" prefHeight="36.0" prefWidth="455.0" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="Submit">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="60.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="100.0" left="60.0" right="60.0" top="10.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <top>
+            <Label prefHeight="59.0" prefWidth="600.0" text="Enter kid details" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="37.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="10.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets left="100.0" />
+               </padding>
+            </Label>
+         </top>
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </BorderPane>
+      <JFXButton fx:id="homebutton" buttonType="RAISED" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" onAction="#homebuttonpushed" prefHeight="78.0" prefWidth="76.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" styleClass="jfx-button" stylesheets="@buttonEffects.css" text="Home" textFill="#1b0101">
+         <font>
+            <Font name="DejaVu Sans Bold" size="13.0" />
+         </font>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/icons/home-icon1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

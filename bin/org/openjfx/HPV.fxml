@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="296.0" text="11-12 Years" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="296.0" text="1-2 Months after dose 1" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="296.0" text="6 Months after dose 2" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="3rd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Human papillomavirus (HPV) is a very common virus that can lead to cancer. Nearly 80 million people—about one in four—are currently infected with HPV in the United States. About 14 million people, including teens, become infected with HPV each year.&#10;&#10;In the U.S., nearly 35,000 people are estimated to be affected by a cancer caused by HPV infection each year. While there is screening for cervical cancer that can detect cancer early, there is no recommended screening for the other cancers caused by HPV infection, like cancers of the back of the throat, anus, penis, vagina, or vulva.&#10;&#10;HPV vaccine provides safe, effective, and lasting protection against the HPV infections that most commonly cause cancer." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Three HPV vaccines—9-valent HPV vaccine (Gardasil 9, 9vHPV), quadrivalent HPV vaccine (Gardasil, 4vHPV), and bivalent HPV vaccine (Cervarix, 2vHPV)—have been licensed by the U.S. Food and Drug Administration (FDA). All three HPV vaccines protect against HPV types 16 and 18 that cause most HPV cancers.&#10;&#10;Gardasil-9 (Merck), a nine-valent HPV vaccine (9vHPV) that protects against HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58, is the only HPV vaccine currently distributed in the U.S." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Vaccines, like any medicine, can have side effects. Many people who get HPV vaccine have no side effects at all. Some people report having very mild side effects, like a sore arm from the shot.&#10;&#10;The most common side effects of HPV vaccine are usually mild and include:&#10;&#10;Pain, redness, or swelling in the arm where the shot was given&#10;Fever&#10;Headache or feeling tired&#10;Nausea&#10;Muscle or joint pain&#10;Brief fainting spells and related symptoms (such as jerking movements) can happen after any medical procedure, including vaccination. Sitting or lying down when getting a shot and staying in that position for about 15 minutes after a vaccination can help prevent fainting and injuries caused by falls.&#10;&#10;On very rare occasions, severe (anaphylactic) allergic reactions may occur after vaccination. People with severe allergies to any component of a vaccine should not receive that vaccine." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="HPV vaccination is recommended for all preteens (including girls and boys) at age 11–12 years. All preteens need HPV vaccination, so they are protected from HPV infections that can cause cancer later in life.&#10;&#10;Teens and young adults through age 26 years who didn’t start or finish the HPV vaccine series also need HPV vaccination.&#10;CDC recommends that 11- to 12-year-olds receive two doses of HPV vaccine 6 to 12 months apart.&#10;&#10;The first dose is routinely recommended at age 11–12 years old; the series can be started at age 9 years.&#10;Only two doses are recommended if vaccination started at age 9 and through age 14.&#10;Teens and young adults who start the series later, at ages 15 through 26 years, need three doses of HPV vaccine.&#10;&#10;Adolescents aged 9 through 14 years who have already received two doses of HPV vaccine less than 5 months apart will require a third dose.&#10;Three doses are recommended for people with weakened immune systems aged 9 through 26 years.&#10;Vaccination is not recommended for everyone older than age 26 years. However, some adults age 27 through 45 years who are not already vaccinated may decide to get HPV vaccine after speaking with their doctor about their risk for new HPV infections and the possible benefits of vaccination. HPV vaccination in this age range provides less benefit, as more people have already been exposed to HPV.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="617.0" text="Full name: Human Papilomavirus Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

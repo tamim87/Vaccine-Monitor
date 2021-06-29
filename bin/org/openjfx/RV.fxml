@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="2 Months" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="4 Months" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="6 Months" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="3rd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Rotavirus spreads easily among infants and young children. The virus can cause severe watery diarrhea, vomiting, fever, and abdominal pain. Children who get rotavirus disease can become dehydrated and may need to be hospitalized.&#10;&#10;CDC recommends that infants get rotavirus vaccine to protect against rotavirus disease. Two rotavirus vaccines are currently licensed for infants in the United States. Starting at 2 months old, infants should get two or three doses depending on the brand of rotavirus vaccine.&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Rotavirus vaccine is the best way to protect your child against rotavirus disease. Most children (about 9 out of 10) who get the vaccine will be protected from severe rotavirus disease. About 7 out of 10 children will be protected from rotavirus disease of any severity.&#10;&#10;Two rotavirus vaccines are currently licensed for infants in the United States:&#10;&#10;RotaTeq (RV5) is given in 3 doses at ages 2 months, 4 months, and 6 months&#10;Rotarix (RV1) is given in 2 doses at ages 2 months and 4 months&#10;The first dose of either vaccine should be given before a child is 15 weeks of age. Children should receive all doses of rotavirus vaccine before they turn 8 months old.&#10;&#10;Both vaccines are given by putting drops in the child’s mouth.&#10;&#10;Both rotavirus vaccines (Rotarix and RotaTeq) were tested in large clinical trials that involved thousands of infants, and were found to be safe and effective. About 9 out of 10 children who get the vaccine will be protected from severe rotavirus illness (fever, vomiting, diarrhea, and changes in behavior). While about 7 to 8 out of 10 children will be completely protected from rotavirus illness.&#10;&#10;Before a vaccine was available many children who became ill with rotavirus were hospitalized. Currently, very few vaccinated children are hospitalized because of rotavirus illness (94% to 96% are protected from hospitalization)." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Most babies who get rotavirus vaccine do not have any side effects. However, some babies can have side effects that are usually mild and go away on their own. Serious side effects are possible but rare.&#10;&#10;Side effects or problems that have been associated with rotavirus vaccine include:&#10;&#10;Mild problems&#10;&#10;Being irritable, or having mild, temporary diarrhea or vomiting after getting a dose of rotavirus vaccine.&#10;&#10;Serious problems&#10;&#10;There is a small risk of intussusception, a type of bowel blockage that is treated in a hospital, and could require surgery. Intussusception happens in some babies every year in the United States, and usually there is no known reason for it. Intussusception from rotavirus vaccination usually occurs within a week of receiving a dose of vaccine. The risk of intussusception from rotavirus vaccination is estimated to range from about 1 in 20,000 to 1 in 100,000 US infants who get rotavirus vaccine. Your doctor can give you more information.&#10;&#10;Problems that could happen after any vaccine&#10;&#10;Any medication can cause a severe allergic reaction. Such reactions from a vaccine are very rare, estimated at less than 1 in a million doses, and usually happen within a few minutes to a few hours after the vaccination. As with any medicine, there is a very remote chance of a vaccine causing a serious injury or death." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Infants should get rotavirus vaccine to protect against rotavirus disease.&#10;&#10;There are two rotavirus vaccines licensed for use in infants in the United States:&#10;&#10;RotaTeq (RV5), which is given in three doses at 2 months, 4 months, and 6 months of age&#10;Rotarix (RV1), which is given in two doses at 2 months and 4 months of age&#10;The first dose of rotavirus vaccine should be given before a child is 15 weeks of age. Children should receive all doses of rotavirus vaccine before they turn 8 months of age. Both vaccines are given by putting drops in the infant’s mouth.&#10;&#10;Your child’s doctor can help you choose which rotavirus vaccine to use." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="310.0" text="Full name: Rotavirus Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

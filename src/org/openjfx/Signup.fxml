@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="560.0" prefWidth="780.0" style="-fx-background-color: #a2cbc8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Signupcontroller">
+   <children>
+      <StackPane layoutX="158.0" layoutY="22.0" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="22.0">
+         <children>
+            <AnchorPane minHeight="460.0" minWidth="380.0" prefHeight="460.0" prefWidth="380.0" style="-fx-background-color: #d5d8d8; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="75.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_stack-icon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="75.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_phone-icon.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="username" layoutX="111.0" layoutY="101.0" prefHeight="24.0" prefWidth="223.0" promptText="username" />
+                  <TextField fx:id="email" layoutX="111.0" layoutY="146.0" prefHeight="24.0" prefWidth="223.0" promptText="email" />
+                  <PasswordField fx:id="password" layoutX="111.0" layoutY="241.0" prefHeight="24.0" prefWidth="223.0" promptText="password" />
+                  <PasswordField fx:id="repeatpassword" layoutX="111.0" layoutY="290.0" prefHeight="24.0" prefWidth="223.0" promptText="repeat password" />
+                  <TextField fx:id="phone" layoutX="111.0" layoutY="194.0" prefHeight="24.0" prefWidth="223.0" promptText="phone" />
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="75.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_mail-icon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="75.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_security-icon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="75.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/flatpack%20mono%20icons/flat%20mono_unlocked-icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="103.0" layoutY="25.0" prefHeight="54.0" prefWidth="236.0" text="Create new account">
+                     <font>
+                        <Font name="Comic Sans MS" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="92.0" layoutY="394.0" prefHeight="31.0" prefWidth="204.0" text="Already have an account ?">
+                     <font>
+                        <Font name="Comic Sans MS" size="13.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="signupbutton" buttonType="RAISED" layoutX="110.0" layoutY="345.0" onAction="#signupbuttonpushed" prefHeight="24.0" prefWidth="223.0" style="-fx-background-color: #81b2e9;" stylesheets="@buttonEffects.css" text="Sign Up" />
+                  <JFXButton fx:id="loginbutton" buttonType="RAISED" layoutX="255.0" layoutY="398.0" onAction="#loadloginpage" stylesheets="@buttonEffects.css" text="Login instead" textFill="#1402dd" underline="true" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

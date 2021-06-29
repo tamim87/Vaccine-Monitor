@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+              <tabs>
+                <Tab text="Records">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="Birth" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="1 Month" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="6-18 Months" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="3rd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="About Disease">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Hepatitis B is a liver infection caused by the hepatitis B virus. Some people with hepatitis B are sick for only a few weeks (known as “acute” infection), but for others, the disease progresses to a serious, lifelong illness known as chronic hepatitis B.&#10;&#10;What is acute (short-term) hepatitis B?&#10;Acute hepatitis B is a short-term illness that occurs within the first 6 months after someone is exposed to the hepatitis B virus. Some people with acute hepatitis B have no symptoms at all or only mild illness. For others, acute hepatitis B causes a more severe illness that requires hospitalization.&#10;&#10;What is chronic (long-term) hepatitis B?&#10;Some people, especially those who get infected in adulthood, are able to clear the virus from their bodies without treatment. For other people, acute hepatitis B leads to life-long infection known as chronic hepatitis B. Over time, chronic hepatitis B can cause serious health problems, including liver damage, cirrhosis, liver cancer, and even death.&#10;&#10;Who is most likely to get chronic (long-term) hepatitis B?&#10;Age plays a role in whether hepatitis B will become chronic. The younger a person is when infected with the hepatitis B virus, the greater the chance of developing chronic infection. About 9 in 10 infants who become infected go on to develop life-long, chronic infection. The risk goes down as a child gets older. About one in three children who get infected before age 6 will develop chronic hepatitis B. By contrast, almost all older children (those aged ≥6) and adults infected with the hepatitis B virus recover completely and do not develop chronic infection.&#10;&#10;How common is hepatitis B in the United States?&#10;In 2018, a total of 3,322 cases of acute (short-term) hepatitis B were reported to CDC. Since many people may not have symptoms or don’t know they are infected, their illness is often not diagnosed so it can’t be reported or counted. CDC estimates the actual number of acute hepatitis B cases was closer to 21,600 in 2018. Many more people (about 862,000) are estimated to be living with chronic, long-term hepatitis B.&#10;&#10;How common is hepatitis B around the world?&#10;An estimated 257 million people are living with hepatitis B worldwide.&#10;&#10;How is hepatitis B spread?&#10;Hepatitis B is spread when blood, semen, or other body fluid infected with the hepatitis B virus enters the body of someone who is not infected. People can become infected with the virus from:&#10;&#10;Birth (spread from an infected mother to her baby during birth)&#10;Sex with an infected partner&#10;Sharing needles, syringes, or drug preparation equipment&#10;Sharing items such as toothbrushes, razors, or medical equipment (like a glucose monitor) with an infected person&#10;Direct contact with the blood or open sores of an infected person&#10;Exposure to an infected person’s blood through needlesticks or other sharp instruments&#10;Hepatitis B is not spread through food or water, sharing eating utensils, breastfeeding, hugging, kissing, hand holding, coughing, or sneezing.&#10;Can a person spread the hepatitis B virus and not know it?&#10;Yes. Many people with hepatitis B don’t know they are infected with the virus because they don’t feel or look sick. However, they can still spread the virus to others.&#10;&#10;Can the hepatitis B virus be spread through sex?&#10;Yes. The hepatitis B virus can be found in the blood, semen, and other body fluids of an infected person. A person who has sex with an infected partner can become infected with the virus.&#10;&#10;Can hepatitis B be spread through food?&#10;Unlike hepatitis A, hepatitis B is not usually spread through food or water.&#10;&#10;Who is at risk for hepatitis B?&#10;Although anyone can get hepatitis B, these people are at greater risk:&#10;&#10;Infants born to infected mothers&#10;People who inject drugs or share needles, syringes, and other types of drug equipment&#10;Sex partners of people with hepatitis B&#10;Men who have sex with men&#10;People who live with someone who has hepatitis B&#10;Health-care and public-safety workers exposed to blood on the job&#10;Hemodialysis patients&#10;Who should be tested for hepatitis B?&#10;CDC recommends hepatitis B testing for:&#10;&#10;People born in certain countries where hepatitis B is common&#10;People born in the United States not vaccinated as infants whose parents were born in countries with high rates of hepatitis B&#10;Men who have sex with men&#10;People who inject drugs&#10;People with HIV&#10;Household and sexual contacts of people with hepatitis B&#10;People requiring immunosuppressive therapy&#10;People with end-stage renal disease (including hemodialysis patients)&#10;People with hepatitis C&#10;People with elevated ALT levels&#10;Pregnant women&#10;Infants born to HBV-infected mothers&#10;What should I do if I think I have been exposed to the hepatitis B virus?&#10;If you are concerned that you might have been exposed to the hepatitis B virus, call your health-care provider or your local health department immediately. Infection with the hepatitis B virus can be prevented if you get the hepatitis B vaccine and/or a shot called “HBIG” (hepatitis B immune globulin) as soon as possible after exposure to the virus, ideally within 24 hours.&#10;&#10;What is hepatitis B immune globulin (HBIG)?&#10;Hepatitis B immune globulin is a substance made from human blood samples that contain antibodies against the hepatitis B virus. It is given as a shot to people exposed to the hepatitis B virus to protect them from infection.&#10;&#10;How long does the hepatitis B virus survive outside the body?&#10;The hepatitis B virus can survive outside the body for at least 7 days. During that time, the virus is still capable of causing infection.&#10;&#10;How should blood spills be cleaned from surfaces to make sure that hepatitis B virus is gone?&#10;All blood spills (including those that have already dried) should be cleaned and disinfected with a mixture of bleach and water (1 part household bleach to 10 parts water). Gloves should always be worn when cleaning up any blood spills. Even dried blood can cause infection.&#10;&#10;If I have been infected with the hepatitis B virus in the past, can I get it again?&#10;No. If you have been infected with hepatitis B in the past, you can’t get infected again. However, some people, especially those infected during early childhood, remain infected for life because they never cleared the virus from their bodies. These people are considered to have chronic infection and are at risk for developing severe liver disease.&#10;&#10;Can I donate blood if I have hepatitis B?&#10;The American Red Crossexternal icon does not accept blood donations from anyone who has tested positive for hepatitis B or anyone experiencing symptoms of viral hepatitis.&#10;&#10;Can I donate organs if I have hepatitis B?&#10;According to the U.S. Department of Health &amp; Human Service’s online information on organ donation and transplantationexternal icon, few conditions would prevent someone from being an organ, eye, or tissue donor. Even with a history of hepatitis B, you may be able to donate your organs or tissues. The transplant team will determine what organs or tissue can be used based on a clinical evaluation, medical history, and other factors. CDC has recently published information about how to assess solid organ donors and monitor transplant recipients for hepatitis B infectionpdf icon." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></JFXTextArea>
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Hepatitis B vaccine can prevent hepatitis B. Hepatitis B is a liver disease that can cause mild illness lasting a few weeks, or it can lead to a serious, lifelong illness.&#10;&#10;Acute hepatitis B infection is a short-term illness that can lead to fever, fatigue, loss of appetite, nausea, vomiting, jaundice (yellow skin or eyes, dark urine, clay-colored bowel movements), and pain in the muscles, joints, and stomach.&#10;Chronic hepatitis B infection is a long-term illness that occurs when the hepatitis B virus remains in a person’s body. Most people who go on to develop chronic hepatitis B do not have symptoms, but it is still very serious and can lead to liver damage (cirrhosis), liver cancer, and death. Chronically-infected people can spread hepatitis B virus to others, even if they do not feel or look sick themselves.&#10;Hepatitis B is spread when blood, semen, or other body fluid infected with the hepatitis B virus enters the body of a person who is not infected. People can become infected through:&#10;Birth (if a mother has hepatitis B, her baby can become infected)&#10;Sharing items such as razors or toothbrushes with an infected person&#10;Contact with the blood or open sores of an infected person&#10;Sex with an infected partner&#10;Sharing needles, syringes, or other drug-injection equipment&#10;Exposure to blood from needlesticks or other sharp instruments&#10;Most people who are vaccinated with hepatitis B vaccine are immune for life." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Hepatitis B vaccine is safe and effective at preventing hepatitis B infections. Vaccines, like any medicine, can have side effects. Many people who get hepatitis B vaccine have no side effects at all. The most common side effects are usually mild and last 1-2 days.&#10;&#10;&#10;Common Side Effects&#10;Soreness, redness, or swelling in the arm where the shot was given&#10;Headache&#10;Fever&#10;Severe allergic reactions following vaccination are rare, but can be life threatening.&#10;Symptoms of a severe allergic reaction can include hives, swelling of the face and throat, difficulty breathing, a fast heartbeat, dizziness, and weakness.&#10;&#10;If such reactions occur, call 9-1-1 and get the person to the nearest hospital." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Hepatitis B vaccination is recommended for:&#10;All infants&#10;All children and adolescents younger than 19 years of age who have not been vaccinated&#10;People at risk for infection by sexual exposure&#10;People whose sex partners have hepatitis B&#10;Sexually active people who are not in a long-term, mutually monogamous relationship (for example, people with more than one sex partner in the past 6 months)&#10;People seeking evaluation or treatment for a sexually transmitted infection&#10;Men who have sex with men&#10;People at risk for infection by exposure to blood&#10;People who inject drugs&#10;People who live with someone who has hepatitis B&#10;People who live or work in facilities for people with developmental disabilities&#10;Health-care and public-safety workers at risk for exposure to blood or blood-contaminated body fluids on the job&#10;People who receive hemodialysis&#10;People with diabetes who are 19–59 years of age (people with diabetes who are age 60 or older should ask their health care professional).&#10;International travelers to countries where hepatitis B is common&#10;People with hepatitis C virus infection&#10;People with chronic liver disease&#10;People with HIV infection&#10;People who are in jail or prison&#10;All other people seeking protection from hepatitis B virus infection&#10;Children and adolescents&#10;&#10;Babies normally get 3 doses of hepatitis B vaccine:&#10;1st Dose: Birth&#10;2nd Dose: 1-2 months of age&#10;3rd Dose: 6-18 months of age&#10;Some babies might get 4 doses, for example, if a combination vaccine containing hepatitis B is used. (This is a single shot containing several vaccines.) The extra dose is not harmful.&#10;Anyone through 18 years of age who didn't get the vaccine when they were younger should also be vaccinated.&#10;Adults&#10;&#10;Adults getting hepatitis B vaccine should get 3 doses — with the second dose given 4 weeks after the first and the third dose 5 months after the second. Your doctor can tell you about other dosing schedules that might be used in certain circumstances." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="310.0" text="Full name: Hepatitis B Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="646.0" style="-fx-background-color: #6A1B9A;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.DashboardController">
+   <children>
+      <BorderPane prefHeight="465.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox fillWidth="false" prefHeight="465.0" prefWidth="490.0" style="-fx-background-color: #BBDEFB; -fx-background-radius: 35;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="mykidsbutton" buttonType="RAISED" onAction="#mykidsbuttonpushed" prefHeight="75.0" prefWidth="490.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="My Kids">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="vaccinesbutton" buttonType="RAISED" onAction="#vaccinesbuttonpushed" prefHeight="75.0" prefWidth="490.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="Vaccines">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="addchildbutton" buttonType="RAISED" onAction="#addchildbuttonpushed" prefHeight="75.0" prefWidth="490.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="Add Child">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="schedulesbutton" buttonType="RAISED" onAction="#schedulesbuttonpushed" prefHeight="75.0" prefWidth="490.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="Schedules">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="logoutbutton" buttonType="RAISED" onAction="#logoutbuttonpushed" prefHeight="75.0" prefWidth="490.0" ripplerFill="#e10e0e" style="-fx-background-radius: 300; -fx-border-insets: 500; -fx-effect: 600; -fx-focus-traversable: 566;" stylesheets="@buttonEffects.css" text="Logout">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="50.0" left="60.0" right="60.0" top="10.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <top>
+            <Label prefHeight="59.0" prefWidth="600.0" text="Home" textFill="#dad0d0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="37.0" />
+               </font>
+               <padding>
+                  <Insets left="220.0" />
+               </padding>
+            </Label>
+         </top>
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </BorderPane>
+   </children>
+</AnchorPane>

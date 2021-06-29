@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="50.0" prefWidth="661.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="2 Months" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="4 Months" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="50.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="6 Months" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="3rd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="170.0" prefHeight="50.0" prefWidth="617.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="251.0" text="15-18 Months" textFill="#02000d">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="234.0" text="4th Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="270.0" prefHeight="50.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="4-6 Years" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="5th Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets bottom="10.0" left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Diphtheria, tetanus, and pertussis are potentially serious bacterial diseases that can be safely prevented in adults and children with vaccines.&#10;&#10;Diphtheria causes a thick membrane-like covering in the back of the throat. It can lead to breathing problems, paralysis, heart failure, and even death. Learn more about diphtheria.&#10;&#10;Tetanus (also known as lockjaw) is a serious disease that causes painful tightening of the muscles, usually all over the body. It can lead to “locking” of the jaw so the person cannot open their mouth or swallow.Tetanus leads to death in about 1 in 10 cases. Learn more about tetanus.&#10;&#10;Pertussis (also known as whooping cough) is a highly contagious respiratory tract infection. Although it initially resembles an ordinary cold, whooping cough may eventually turn more serious, particularly in infants. Learn more about pertussis.&#10;&#10;Vaccines are available that can help prevent these diseases. CDC recommends:&#10;&#10;Children and preteens should get five doses of DTaP vaccine and a Tdap vaccine booster.&#10;Pregnant women should get one dose of Tdap vaccine every pregnancy, preferably early in the 3rd trimester.&#10;Adults should get one dose of Tdap or Td every 10 years. Adults who have never received Tdap should get it in place of a Td dose.&#10;Available Vaccines and Package Inserts&#10;&#10;There are several different types of vaccines that can safety prevent diphtheria, tetanus, and pertussis:&#10;&#10;DTaP (diphtheria, tetanus, and acellular pertussis) vaccine, which is given to children&#10;DT (diphtheria and tetanus) vaccine, which is given to children&#10;Tdap (combined tetanus, diphtheria and acellular pertussis) vaccine, which is given to adolescents and adults&#10;Td (tetanus and diphtheria) vaccine, which is given to adolescents and adults" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="DTaP vaccine can prevent diphtheria, tetanus, and pertussis.&#10;&#10;Diphtheria and pertussis spread from person to person. Tetanus enters the body through cuts or wounds.&#10;&#10;DIPHTHERIA (D) can lead to difficulty breathing, heart failure, paralysis, or death.&#10;TETANUS (T) causes painful stiffening of the muscles. Tetanus can lead to serious health problems, including being unable to open the mouth, having trouble swallowing and breathing, or death.&#10;PERTUSSIS (aP), also known as “whooping cough,” can cause uncontrollable, violent coughing which makes it hard to breathe, eat, or drink. Pertussis can be extremely serious in babies and young children, causing pneumonia, convulsions, brain damage, or death. In teens and adults, it can cause weight loss, loss of bladder control, passing out, and rib fractures from severe coughing.&#10;DTaP vaccine&#10;DTaP is only for children younger than 7 years old. Different vaccines against tetanus, diphtheria, and pertussis (Tdap and Td) are available for older children, adolescents, and adults.&#10;&#10;It is recommended that children receive 5 doses of DTaP, usually at the following ages:&#10;&#10;2 months&#10;4 months&#10;6 months&#10;15–18 months&#10;4–6 years&#10;DTaP may be given as a stand-alone vaccine, or as part of a combination vaccine (a type of vaccine that combines more than one vaccine together into one shot).&#10;&#10;DTaP may be given at the same time as other vaccines.&#10;&#10; " AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="DTaP, DT, Td, and Tdap vaccines are safe and effective at preventing diphtheria and tetanus. DTaP and Tdap vaccine are safe and effective at preventing diphtheria, tetanus, and pertussis. Vaccines, like any medicine, can have side effects. The most common side effects are usually mild and go away on their own.&#10;&#10;Severe allergic reactions following vaccination are rare, but can be life threatening.&#10;Symptoms of a severe allergic reaction can include hives, swelling of the face and throat, difficulty breathing, a fast heartbeat, dizziness, and weakness.&#10;&#10;If such reactions occur, call 9-1-1 and get the person to the nearest hospital.&#10;&#10; &#10;&#10;Common Side Effects&#10;&#10;Soreness or swelling where the shot was given&#10;Fever&#10;Irritability&#10;Feeling tired&#10;Loss of appetite&#10;Vomiting&#10;Most side effects are mild to moderate and can last from 1 to 3 days." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="CDC recommends diphtheria, tetanus, and whooping cough (pertussis) vaccination for everyone.&#10;&#10;Talk to your or your child’s healthcare professional if you have questions about diphtheria, tetanus, and whooping cough vaccines.&#10;&#10;Babies and Children&#10;&#10;Babies need 3 shots of DTaP to build up high levels of protection against diphtheria, tetanus, and whooping cough. Then, young children need 2 booster shots to maintain that protection through early childhood. CDC recommends shots at the following ages:&#10;&#10;2 months&#10;4 months&#10;6 months&#10;15 through 18 months&#10;4 through 6 years&#10;For children who should not get whooping cough vaccines, healthcare professionals can give DT instead of DTaP. For example, children who had a very bad reaction to DTaP can receive DT. However, children who get DT will not receive any protection against whooping cough.&#10;&#10;Preteens and Teens&#10;&#10;Preteens should get one shot of Tdap between the ages of 11 and 12 years to boost their immunity. Teens who didn’t get Tdap as a preteen should get one shot the next time they visit their healthcare professional..&#10;&#10;Pregnant Women&#10;&#10;Pregnant women should get Tdap during the early part of the 3rd trimester of every pregnancy. By doing so, she helps protect her baby from whooping cough in the first few months of life. Find out more about the Tdap pregnancy recommendation.&#10;&#10;Adults&#10;&#10;All adults who have never received one should get a shot of Tdap. This can be given at any time, regardless of when they last got Td. This should be followed by either a Td or Tdap shot every 10 years" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="663.0" text="Full name: Diptheria, Tetanus and Pertussis Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

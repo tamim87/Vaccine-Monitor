@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="189.0" layoutY="59.0" prefHeight="516.0" prefWidth="600.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Records">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                           <children>
+                              <VBox layoutY="63.0" prefHeight="460.0" prefWidth="661.0" style="-fx-background-color: #9FA8DA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="250.0" text="12-15 Months" textFill="#000000ed">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="227.0" text="1st Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: #C5CAE9;">
+                                       <children>
+                                          <ImageView fitHeight="31.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../Pictures/icons/syringe-injection-icon.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Label prefHeight="36.0" prefWidth="253.0" text="4-6 Years" textFill="#0e0222">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label prefHeight="36.0" prefWidth="197.0" text="2nd Dose" textFill="#660202">
+                                             <font>
+                                                <Font name="KacstTitle" size="22.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="20.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" top="60.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Disease">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea layoutX="35.0" layoutY="60.0" prefHeight="460.0" prefWidth="661.0" text="Measles, mumps, and rubella are serious diseases. Before vaccines they were very common, especially among children.&#10;&#10;&#10;&#10;Measles&#10;&#10;Measles is a disease caused by a highly contagious virus. People with measles spread the virus through the air when they cough, sneeze, or breathe.&#10;&#10;Symptoms of measles may include rash, high fever, cough, runny nose, and red, watery eyes. Some people who become sick with measles also get a serious lung infection, such as pneumonia. Although severe cases are rare, measles can cause swelling of the brain and even death. Measles can be especially severe in infants and people who are malnourished or who have weakened immune systems.&#10;&#10;Mumps&#10;&#10;Mumps is a disease caused by a virus. People with mumps spread the virus when they&#10;&#10;Cough, sneeze, or talk&#10;Share items that may have saliva on them, such as water bottles or cups&#10;Participate in close-contact activities with others, such as playing sports, dancing, or kissing&#10;Mumps symptoms may include fever, headache, muscle aches, tiredness, loss of appetite, and swollen and tender glands under the ears or jaw on one or both sides of the face (parotitis). Most people with mumps recover fully. However, mumps infection can occasionally cause complications, such as swelling of the brain, testicles, ovaries or breasts. It can also cause temporary or permanent deafness.&#10;&#10;Rubella&#10;&#10;Rubella, also called German measles, is a disease caused by a virus. People with rubella spread the virus through the air when they cough or sneeze.&#10;&#10;Many people who get rubella never have symptoms or have only mild symptoms. For people who have symptoms, a red rash is typically the first sign. Other symptoms can include fever, headache, red eyes, general discomfort, swollen and enlarged lymph nodes, cough, and runny nose.&#10;&#10;Rubella infection in a pregnant woman is dangerous. If a pregnant woman gets rubella, her baby could have birth defects such as deafness, cataracts, heart defects, mental disabilities, and organ damage.&#10;&#10;&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="About Vaccine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Two vaccines containing measles, mumps, and rubella virus are licensed for use in the United States.&#10;&#10;M-M-R II is a combination measles, mumps, and rubella (MMR) vaccine.&#10;ProQuad is a combination measles, mumps, rubella, and varicella (MMRV) vaccine.&#10;Both vaccines contain live, attenuated measles, mumps, and rubella virus. MMRV also contains live, attenuated varicella-zoster virus.&#10;&#10;The lyophilized live MMR vaccine and MMRV vaccine should be reconstituted and administered as recommended by the manufacturer1,2.&#10;&#10;Vaccine Effectiveness&#10;&#10;One dose&#10;&#10;1 dose of MMR vaccine is—&#10;93% effective for measles (range: 39%–100%)&#10;78% effective for mumps (range: 49%–92%)&#10;97% effective for rubella (range: 94%–100%)&#10;Two doses&#10;&#10;2 doses of MMR are—&#10;97% effective for measles (range: 67%–100%)&#10;88% effective for mumps (range: 32%–95%)&#10;Duration of Protection&#10;&#10;People who receive MMR vaccination according to the U.S. vaccination schedule are usually considered protected for life against measles and rubella. While MMR provides effective protection against mumps for most people, immunity against mumps may decrease over time and some people may no longer be protected against mumps later in life.&#10;&#10;Both serologic and epidemiologic evidence indicate that vaccine-induced measles immunity appears to be long-term and probably lifelong in most persons.&#10;While the effectiveness of two doses of MMR against mumps is high, serologic and epidemiologic studies suggest this effectiveness decreases with time. A person with a decreased immune response after time may then become infected when exposed to mumps virus through close contact with a person with mumps. A third dose of MMR can provide added short term protection for those who are likely to have close contact with a mumps patient during an outbreak.&#10;Studies indicate that one dose of vaccine confers long-term, probably lifelong, protection against rubella.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Side Effects">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="The MMR vaccine is very safe, and it is effective at preventing measles, mumps, and rubella. Vaccines, like any medicine, can have side effects. Most people who get MMR vaccine do not have any serious problems with it. Getting MMR vaccine is much safer than getting measles, mumps or rubella.&#10;&#10;Common Side Effects of MMR Vaccine&#10;Sore arm from the shot&#10;Fever&#10;Mild rash&#10;Temporary pain and stiffness in the joints, mostly in teenage or adult women who did not already have immunity to the rubella component of the vaccine&#10;MMR vaccine has been linked with a very small risk of febrile seizures (seizures or jerking caused by fever). Febrile seizures following MMR are rare and are not associated with any long-term effects. Because the risk of febrile seizures increases as infants get older, it is recommended that they get vaccinated as soon as recommended.&#10;&#10;Some people may experience swelling in the cheeks or neck. MMR vaccine rarely causes a temporary low platelet count, which can cause a bleeding disorder that usually goes away without treatment and is not life threatening.&#10;&#10;Extremely rarely, a person may have a serious allergic reaction to MMR vaccine. Anyone who has ever had a life-threatening allergic reaction to the antibiotic neomycin, or any other component of MMR vaccine, should not get the vaccine.&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Who should get vaccine and when">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CFD8DC;">
+                           <children>
+                              <JFXTextArea prefHeight="460.0" prefWidth="661.0" text="Children&#10;&#10;CDC recommends all children get two doses of MMR (measles-mumps-rubella) vaccine, starting with the first dose at 12 through 15 months of age, and the second dose at 4 through 6 years of age. Children can receive the second dose earlier as long as it is at least 28 days after the first dose.&#10;&#10;Learn about MMRV vaccine, which protects against measles, mumps, rubella, and varicella (chickenpox). This vaccine is only licensed for use in children who are 12 months through 12 years of age.&#10;&#10;Students at post-high school educational institutions&#10;&#10;Students at post-high school educational institutions who do not have presumptive evidence of immunity need two doses of MMR vaccine, separated by at least 28 days.&#10;&#10;Adults&#10;&#10;Adults who do not have presumptive evidence of immunity should get at least one dose of MMR vaccine.&#10;&#10;Certain adults may need 2 doses. Adults who are going to be in a setting that poses a high risk for measles or mumps transmission should make sure they have had two doses separated by at least 28 days. These adults include&#10;&#10;students at post-high school education institutions&#10;healthcare personnel&#10;international travelers&#10;International travelers&#10;&#10;People 6 months of age and older who will be traveling internationally should be protected against measles. Before any international travel—&#10;&#10;Infants 6 through 11 months of age should receive one dose of MMR vaccine. Infants who get one dose of MMR vaccine before their first birthday should get two more doses (one dose at 12 through 15 months of age and another dose separated by at least 28 days).&#10;Children 12 months of age and older should receive two doses of MMR vaccine, separated by at least 28 days.&#10;Teenagers and adults who do not have presumptive evidence of immunityagainst measles should get two doses of MMR vaccine separated by at least 28 days.&#10;See also, Travel Information (Measles | Mumps | Rubella)&#10;&#10;Healthcare personnel&#10;&#10;Healthcare personnel should have documented presumptive evidence of immunity, according to the recommendations of the Advisory Committee on Immunization Practices pdf icon [48 pages]. Healthcare personnel without evidence of immunity should get two doses of MMR vaccine, separated by at least 28 days.&#10;&#10;Women of Childbearing Age&#10;&#10;Women of childbearing age should check with their doctor to make sure they are vaccinated before they get pregnant. Women of childbearing age who are not pregnant and do not have presumptive evidence of immunity should get at least one dose of MMR vaccine.&#10;&#10;It is safe for breastfeeding women to receive MMR vaccination. Breastfeeding does not interfere with the response to MMR vaccine, and the baby will not be affected by the vaccine through breast milk.&#10;&#10;Groups at increased risk for mumps because of a mumps outbreak&#10;&#10;During a mumps outbreak, public health authorities might recommend an additional dose of MMR vaccine for people who belong to groups at increased risk for getting mumps. These groups are usually those who are likely to have close contact, such as sharing sport equipment or drinks, kissing, or living in close quarters, with a person who has mumps. Your local public health authorities or institution will communicate to the groups at increased risk that they should receive this dose. If you already have two doses of MMR, it is not necessary to seek out vaccination unless you are part of this group.&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <padding>
+                                    <Insets left="20.0" right="10.0" top="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </TabPane>
+         </center>
+         <top>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="629.0" text="Full name: Measles, Mumps, Rubella Vaccine" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Kalapi" size="16.0" />
+               </font>
+            </Label>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
